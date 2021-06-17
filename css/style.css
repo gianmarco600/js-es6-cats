@@ -1,0 +1,20 @@
+li{
+    list-style-type: none;
+    font-size: 40px;
+}
+
+.arancione{
+    color: rgb(184, 119, 0);
+}
+
+.rosso{
+    color: rgb(124, 33, 0);
+}
+
+.bianco{
+    color: rgb(189, 189, 189);
+}
+
+.grigio{
+    color: rgb(56, 56, 56);
+}

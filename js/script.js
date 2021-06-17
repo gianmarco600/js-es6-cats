@@ -11,8 +11,8 @@ const gatti = [
     {
         nome: 'Romeo',
         eta: 4,
-        colore: 'bianco',
-        sesso: 'f'
+        colore: 'arancione',
+        sesso: 'm'
     },
     {
         nome: 'Minou',
@@ -23,19 +23,21 @@ const gatti = [
     {
         nome: 'Matisse',
         eta: 4,
-        colore: 'bianco',
-        sesso: 'f'
+        colore: 'rosso',
+        sesso: 'm'
     },
     {
         nome: 'Bizet',
         eta: 4,
-        colore: 'bianco',
-        sesso: 'f'
+        colore: 'grigio',
+        sesso: 'm'
     }
 ];
 document.getElementById('gatti').innerHTML = '';
 
 gatti.forEach((gatto) => { 
     let {nome , colore} = gatto;
-    document.getElementById('gatti').innerHTML+= '<li>' +  nome + " e' un gatto" + colore + ' </li>';
+    
+    document.getElementById('gatti').innerHTML+= '<li> <i class="fas fa-cat '+ colore +'"></i>   ' +  nome + " è un gatto" + colore + ' </li>';
+    
  } )
